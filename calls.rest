@@ -1,0 +1,26 @@
+### POST – Skapa användare
+POST http://127.0.0.1:5001/create-user
+Content-Type: application/json
+
+{
+  "user_id": "104",
+  "name": "George Smith",
+  "email": "george@testnet.py"
+}
+### POST – Skapa bilar
+POST http://127.0.0.1:5001/create-cars
+Content-Type: application/json
+
+{
+  "car_id": "210",
+  "brand": "Ford",
+  "year": "2019",
+  "model": "Focus"
+}
+
+### GET – Hämta alla users
+GET http://127.0.0.1:5001/get-users
+
+
+### GET – Hämta alla bilar
+GET http://127.0.0.1:5001/get-cars
